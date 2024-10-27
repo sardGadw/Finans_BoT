@@ -1,0 +1,21 @@
+bot_project/
+├── main.py                   # Запуск бота
+├── config.py                 # Конфигурации
+├── constants.py              # Константы и настройки
+├── database.py               # Работа с базой данных
+├── handlers/                 # Обработчики
+│   ├── __init__.py           # Регистрация обработчиков
+│   ├── commands.py           # Обработчики команд
+│   ├── expenses.py           # Обработчики для расходов
+│   ├── income.py             # Обработчики для доходов
+│   └── reports.py            # Генерация отчетов
+├── services/                 # Вспомогательные модули
+│   ├── __init__.py			# Регистрация обработчиков
+│   ├── excel_service.py      # Работа с Excel
+│   ├── sheets_service.py     # Работа с Google Sheets
+│   ├── notification_service.py # Уведомления и напоминания
+│   └── analytics.py          # Модели для прогнозирования
+└── utils/                    # Утилиты и вспомогательные функции
+    ├── __init__.py
+    ├── scheduler.py          # Планировщик задач
+    └── localization.py       # Локализация и переводы
